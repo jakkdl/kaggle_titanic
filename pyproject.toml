@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "kaggle"
+version = "0.1.0"
+description = ""
+authors = ["jakkdl <h6+github@pm.me>"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+torch = "^1.11.0"
+numpy = "^1.22.4"
+
+[tool.poetry.dev-dependencies]
+pylint = "^2.14.2"
+black = "^22.3.0"
+mypy = "^0.961"
+ipdb = "^0.13.9"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
